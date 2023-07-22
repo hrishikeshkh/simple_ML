@@ -2,11 +2,7 @@ import pandas as pd
 
 df = pd.read_csv("enjoysport.csv")
 
-print(df)
- 
-a = df.values.tolist()
-
-hypo = []
+a, hypo = df.values.tolist(), []
 
 for i in a:
     if i[-1] == "Yes":

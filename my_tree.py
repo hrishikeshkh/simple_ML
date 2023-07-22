@@ -18,4 +18,3 @@ dsc = tree.DecisionTreeClassifier(criterion='entropy')
 dsc.fit(X,y)
 
 tree.plot_tree(dsc)
-
