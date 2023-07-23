@@ -22,8 +22,6 @@ output_weights = np.random.uniform(size = (3,1))
 output_bias = np.random.uniform(size = (1,1))
 
 for i in range(epochs):
-    
-    #feed forward:
     hidden_input = np.dot(X, hidden_weights) + hidden_bias
     hidden_output = sigmoid(hidden_input)
 
