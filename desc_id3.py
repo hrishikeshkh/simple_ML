@@ -1,7 +1,6 @@
 import pandas as pd
 from sklearn.preprocessing import LabelEncoder
 from sklearn.tree import DecisionTreeClassifier
-from sklearn.tree import export_text
 from sklearn import tree
 import matplotlib.pyplot as plt
 
